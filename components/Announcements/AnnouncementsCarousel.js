@@ -18,6 +18,7 @@ const AnnouncementsCarousel = () => (
         key={index}
         style={{
           width: "auto",
+          maxWidth: "100%",
         }}
       >
         <AnnouncementCard {...announcement} />
