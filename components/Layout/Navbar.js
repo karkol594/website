@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <nav class="w-full bg-white border-gray-200 px-2 py-3 sm:px-4 rounded fixed md:py-0">
+    <nav class="w-full bg-white border-gray-200 px-2 py-3 sm:px-4 rounded fixed md:py-0 z-10">
       <div class="container flex flex-wrap items-center justify-between mx-auto md:h-16">
         <a href="./" class="flex items-center gap-2">
           <HomeSearch color={"#065f46"} />

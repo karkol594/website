@@ -1,3 +1,4 @@
+import AnnouncementsSection from "../components/Announcements/AnnouncementsSection";
 import Navbar from "../components/Layout/Navbar";
 
 const Section = ({ color, title, id }) => (
@@ -13,7 +14,7 @@ export default function Home() {
       <main>
         <Section color="bg-lime-100" title="Section 1" id="home" />
         <Section color="bg-green-100" title="Section 2" id="about" />
-        <Section color="bg-sky-100" title="Section 3" id="offer" />
+        <AnnouncementsSection />
         <Section color="bg-rose-100" title="Section 4" id="contact" />
       </main>
     </>
