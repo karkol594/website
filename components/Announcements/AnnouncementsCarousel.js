@@ -3,7 +3,7 @@ import "swiper/css";
 import AnnouncementCard from "./AnnouncementCard";
 import { ANNOUNCEMENTS } from "../../constants/announcements";
 
-const Carousel = () => (
+const AnnouncementsCarousel = () => (
   <Swiper
     slidesPerView="auto"
     slidesPerGroupAuto
@@ -26,4 +26,4 @@ const Carousel = () => (
   </Swiper>
 );
 
-export default Carousel;
+export default AnnouncementsCarousel;

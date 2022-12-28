@@ -12,7 +12,7 @@ const AnnouncementCard = ({ title, description, image, size, link }) => (
       </p>
     </div>
     <div class="px-6 pt-2 pb-4">
-      <a href={link}>
+      <a href={link} rel="noreferrer" target="_blank">
         <button class="bg-emerald-800 hover:bg-emerald-900 text-white font-bold py-2 px-4 rounded w-full">
           Szczegóły
         </button>
