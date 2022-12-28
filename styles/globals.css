@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    main {
+        padding-top: 64px;
+    }
+
+    .is-current>span {
+        color: theme('colors.emerald.800');
+        font-weight: theme('fontWeight.bold');
+    }
+}
