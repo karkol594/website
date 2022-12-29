@@ -1,13 +1,8 @@
 import AboutSection from "../components/AboutSection/AboutSection";
 import AnnouncementsSection from "../components/Announcements/AnnouncementsSection";
+import ContactSection from "../components/ContactSection/ContactSection";
 import HeroSection from "../components/HeroSection/HeroSection";
 import Navbar from "../components/Layout/Navbar";
-
-const Section = ({ color, title, id }) => (
-  <div class={`w-full h-screen ${color}`} id={id}>
-    {title}
-  </div>
-);
 
 export default function Home() {
   return (
@@ -17,7 +12,7 @@ export default function Home() {
         <HeroSection />
         <AboutSection />
         <AnnouncementsSection />
-        <Section color="bg-rose-100" title="Section 4" id="contact" />
+        <ContactSection />
       </main>
     </>
   );
