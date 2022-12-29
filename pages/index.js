@@ -1,3 +1,4 @@
+import AboutSection from "../components/AboutSection/AboutSection";
 import AnnouncementsSection from "../components/Announcements/AnnouncementsSection";
 import HeroSection from "../components/HeroSection/HeroSection";
 import Navbar from "../components/Layout/Navbar";
@@ -14,7 +15,7 @@ export default function Home() {
       <Navbar />
       <main>
         <HeroSection />
-        <Section color="bg-green-100" title="Section 2" id="about" />
+        <AboutSection />
         <AnnouncementsSection />
         <Section color="bg-rose-100" title="Section 4" id="contact" />
       </main>
