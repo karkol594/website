@@ -10,7 +10,7 @@ const Map = () => (
     attributionControl={false}
     dragging={false}
     touchZoom={true}
-    className="h-[50vh]"
+    className="h-80"
   >
     <TileLayer
       attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

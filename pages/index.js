@@ -1,3 +1,5 @@
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import AboutSection from "../components/AboutSection/AboutSection";
 import AnnouncementsSection from "../components/Announcements/AnnouncementsSection";
 import ContactSection from "../components/ContactSection/ContactSection";
@@ -16,6 +18,7 @@ export default function Home() {
         <ContactSection />
       </main>
       <Footer />
+      <ToastContainer />
     </>
   );
 }
