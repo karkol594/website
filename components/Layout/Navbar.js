@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <nav class="w-full bg-white border-gray-200 px-2 py-3 sm:px-4 rounded fixed md:py-0 z-10">
+    <nav class="w-full bg-white border-gray-200 px-2 py-3 sm:px-4 fixed md:py-0 z-10">
       <div class="container flex flex-wrap items-center justify-between mx-auto md:h-16">
         <a href="./" class="flex items-center gap-2">
           <HomeSearch color={"#065f46"} />
@@ -31,7 +31,7 @@ const Navbar = () => {
             className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white"
             items={NAVIGATION_ITEMS.map((item) => item.href)}
             currentClassName="is-current"
-            offset={-64}
+            offset={-72}
           >
             {NAVIGATION_ITEMS.map((item, index) => (
               <li key={index}>

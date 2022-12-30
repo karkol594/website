@@ -1,5 +1,6 @@
 import "leaflet/dist/leaflet.css";
 import { MapContainer, TileLayer } from "react-leaflet";
+import L from 'leaflet';
 import { COORDS } from "../../constants/map";
 
 const Map = () => (
@@ -8,8 +9,8 @@ const Map = () => (
     zoom={12}
     scrollWheelZoom={false}
     attributionControl={false}
-    dragging={false}
-    touchZoom={true}
+    dragging={!L.Browser.mobile}
+    tap={!L.Browser.mobile}
     className="h-80"
   >
     <TileLayer
