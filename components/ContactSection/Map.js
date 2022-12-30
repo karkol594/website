@@ -8,6 +8,8 @@ const Map = () => (
     zoom={12}
     scrollWheelZoom={false}
     attributionControl={false}
+    dragging={false}
+    touchZoom={true}
     className="h-[50vh]"
   >
     <TileLayer
