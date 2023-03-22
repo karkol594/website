@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import AboutSection from "../components/AboutSection/AboutSection";
@@ -10,6 +11,20 @@ import Navbar from "../components/Layout/Navbar";
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>notabene - nieruchomości</title>
+        <link rel="shortcut icon" href="/favicon.png" />
+        <meta name="title" content="notabene - nieruchomości" />
+        <meta
+          name="description"
+          content="notabene - pośrednictwo w obrocie nieruchomościami"
+        />
+        <meta
+          name="keywords"
+          content="notabene, nieruchomości, dom, mieszkanie, apartament, loft, działka"
+        />
+        <meta name="robots" content="index, follow" />
+      </Head>
       <Navbar />
       <main>
         <HeroSection />
