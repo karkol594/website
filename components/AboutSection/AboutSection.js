@@ -10,26 +10,30 @@ const AboutSection = () => (
           </div>
         </div>
         <div class="py-4 flex flex-col justify-center">
-          <h1 class="text-3xl font-bold mb-6 border-b-2 border-emerald-800 w-fit">Karolina Kołatek</h1>
+          <h1 class="text-3xl font-bold mb-6 border-b-2 border-emerald-800 w-fit">
+            Karolina Kołatek
+          </h1>
           <p class="font-light text-gray-500 mb-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed
-            lacus turpis. Sed massa diam, hendrerit eget mollis eget, porttitor
-            eu libero. Sed dolor massa, volutpat nec erat sit amet, efficitur
-            faucibus orci. Vestibulum venenatis metus ut tincidunt auctor.
-            Maecenas volutpat enim sed neque malesuada malesuada quis vel
-            tortor. Integer tincidunt, dui a varius maximus, libero erat cursus
-            nulla, convallis finibus dolor diam id mauris. Ut molestie eros eget
-            elementum gravida.
+            Jestem doświadczonym agentem nieruchomości z pasją i determinacją do
+            pomagania. Moje podejście opiera się na pełnym profesjonalizmie,
+            skrupulatności i dokładności. Stawiam na pierwszym miejscu potrzeby
+            i oczekiwania moich klientów, a moim celem jest zapewnienie im
+            najlepszej jakości usług nieruchomościowych.
+          </p>
+          <p class="font-light text-gray-500 mb-3">
+            Dzięki mojej wiedzy i doświadczeniu w branży, jestem w stanie
+            oferować swoim klientom pełne wsparcie na każdym etapie procesu
+            kupna lub sprzedaży nieruchomości. Oferuję indywidualne podejście do
+            każdego klienta, słuchając i analizując ich potrzeby, a następnie
+            proponując rozwiązania, które spełnią ich wymagania.
           </p>
           <p class="font-light text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed
-            lacus turpis. Sed massa diam, hendrerit eget mollis eget, porttitor
-            eu libero. Sed dolor massa, volutpat nec erat sit amet, efficitur
-            faucibus orci. Vestibulum venenatis metus ut tincidunt auctor.
-            Maecenas volutpat enim sed neque malesuada malesuada quis vel
-            tortor. Integer tincidunt, dui a varius maximus, libero erat cursus
-            nulla, convallis finibus dolor diam id mauris. Ut molestie eros eget
-            elementum gravida.
+            Jako agentka nieruchomości, wiem, jak ważna jest jasność,
+            transparentność i etyka w mojej pracy. Dlatego zawsze stawiam na
+            pierwszym miejscu uczciwość, rzetelność i zaangażowanie w każdą
+            transakcję. Jestem zawsze gotowa odpowiedzieć na wszelkie pytania i
+            udzielić porady, aby moi klienci mogli dokonać najlepszego wyboru
+            dla siebie.
           </p>
         </div>
       </div>

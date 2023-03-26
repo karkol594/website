@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Head>
         <title>notabene - nieruchomości</title>
-        <link rel="shortcut icon" href="/favicon.png" />
+        <link rel="shortcut icon" href="/favicon.svg" />
         <meta name="title" content="notabene - nieruchomości" />
         <meta
           name="description"

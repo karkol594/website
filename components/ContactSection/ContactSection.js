@@ -15,17 +15,16 @@ const ContactSection = () => (
         </div>
         <div class="py-2">
           <div class="flex flex-col	gap-4">
+            <p class="font-light text-gray-500 leading-loose">
+              Jeśli jesteś zainteresowany moją ofertą lub chcesz skorzystać z
+              mojej profesjonalnej pomocy, skontaktuj się ze mną telefonicznie
+              lub przy pomocy formularza kontaktowego. Do każdego klienta
+              podchodzę indywidualnie.
+            </p>
+            <p>Telefon komórkowy:</p>
             <p class="text-sm text-gray-600 flex items-center gap-2">
               <Phone />
-              000-000-000
-            </p>
-            <p class="text-sm text-gray-600 flex items-center gap-2">
-              <Mail />
-              lorem@ipsum.com
-            </p>
-            <p class="text-sm text-gray-600 flex items-center gap-2">
-              <MapPin />
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit
+              503-891-520
             </p>
           </div>
         </div>

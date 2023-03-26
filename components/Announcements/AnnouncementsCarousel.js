@@ -19,6 +19,7 @@ const AnnouncementsCarousel = () => (
         style={{
           width: "auto",
           maxWidth: "100%",
+          height: "auto",
         }}
       >
         <AnnouncementCard {...announcement} />
